@@ -1,0 +1,15 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Get a JOB!!!"
+}
+
+###
+DELETE http://localhost:3001/todo/delete/647741e8987f022c130933f2
+
+### 
+PUT http://localhost:3001/todo/complete/647741e8987f022c130933f2
